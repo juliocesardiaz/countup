@@ -1,0 +1,29 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js"></script>
+
+  <title>Multiple Counter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter the multiple, and the limit to count to:</h1>
+
+      <form id="multipleCounter">
+        <div class="form-group">
+          <label for="multipleCounter">Enter the multiple</label>
+          <input class="form-control" type="number" id="multiple">
+          <label for="multipleCounter">Enter the limit</label>
+          <input class="form-control" type="number" id="limit">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+
+      <div id="result">
+        <p>Here are the multiples of <span class="multiple"></span> to <span class="limit"></span>: <br></br> <span class="counter"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
